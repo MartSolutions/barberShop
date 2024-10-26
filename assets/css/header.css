@@ -1,0 +1,45 @@
+#header{
+    /* background:#0004;
+    backdrop-filter: blur(20px); */
+    width: 100vw;
+    height: 100px;
+    background-image: url(../img/header.svg);
+    background-position: 0 0;
+    background-size: 100%;
+    padding: 0 2rem;
+    position:fixed;
+    background-repeat: no-repeat;
+    top:0;
+    z-index:999;
+    /* filter: drop-shadow(0 0 10px #0005); */
+}
+
+#header svg{
+    width:100%;
+}
+
+#header a{
+    font-size: 2rem;
+    display:block;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 900;
+    text-shadow:0 0 5px #000;
+    transform: rotateZ(-5deg);
+    /* border:solid 1px red; */
+    position: fixed;
+
+}
+
+#footer{
+    width: 100vw;
+    height: 120px;
+    /* background-image: url(../img/portada_bottom.svg); */
+    background-position: 0 0;
+    background-size: 100%;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+
+}

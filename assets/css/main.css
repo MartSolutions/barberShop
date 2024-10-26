@@ -1,0 +1,187 @@
+@import "sizes.css";
+@import "grid.css";
+@import "darkmode.css";
+@import "header.css";
+
+::-webkit-scrollbar{
+    display:none;
+}
+html{
+    font-size:20px;
+}
+
+*{
+    box-sizing:border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.btn-primary{
+    font-size:1.25rem;
+    padding:0.5rem 1.5rem;
+    background:var(--primary);
+    color:#fff;
+    cursor:pointer;
+    text-decoration:none;
+    border-radius:5px;
+    display:block;
+    margin:2rem 2rem auto auto;
+    max-width: max-content;
+}
+
+
+#home{
+    background-image: url(../img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #0002; */
+    position: absolute;
+    max-width: 1200px;
+    margin:0 auto;
+    inset: 0;
+    
+    scroll-snap-type: y mandatory;
+    overflow-y:scroll;
+}
+
+#main .section{
+    height:100vh;
+    scroll-snap-align: start;
+    padding:100px 2rem;
+}
+
+#main .brand{
+    font-size: 3rem;
+
+}
+.ilustration{
+    width: 30vw;
+    height:30vw;
+    display:block;
+    /* border:solid 1px red; */
+    align-self:center;
+    margin:auto auto;
+}
+
+#ilustration{
+    width: 30vw;
+    height:30vw;
+    display:block;
+    /* border:solid 1px red; */
+    background-image:url(../img/ilustration.svg);
+    align-self:center;
+    margin:auto auto;
+}
+
+.calendar_ilustration{
+    width: 30vw;
+    height:30vw;
+    display:block;
+    /* border:solid 1px red; */
+    background-image:url(../img/calendar.svg);
+    align-self:center;
+    margin:auto auto;
+}
+.ilustration.redes{
+    background-image:url(../img/redes.svg);
+}
+.ilustration.horarys{
+    background-image:url(../img/horarios.svg);
+}
+.equipo_ilustration{
+    width: 30vw;
+    height:30vw;
+    display:block;
+    /* border:solid 1px red; */
+    background-image:url(../img/equipo.svg);
+    align-self:center;
+    margin:auto auto;
+}
+
+.rrss{
+    font-size:1.75rem;
+    background:rgb(52, 66, 80);
+    color:#fff;
+    width:3rem;
+    height:3rem;
+    border-radius:100%;
+    display:grid;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+.services{
+    /* background-image: url(../img/services.jpg); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+    border:solid 1px #000;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.services h1{
+    color:#000000;
+    
+}
+
+.service{
+    background:#c9d6db;
+    width:25vw;
+    height:25vw;
+    display:block;
+    margin:0 auto;
+    background-size: 100%;
+    /* border:solid 1px red; */
+    /* box-shadow:-2px -2px 15px var(--primary); */
+    display:block;
+    border-radius:10px;
+    backdrop-filter: blur(20px);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius:200px;
+}
+
+.service span{
+position: absolute;
+bottom:0;
+width: max-content;
+text-align: center;
+}
+
+
+.pincel{
+    background-image: url(../img/pincel.png);
+    background-size: 50%;
+}
+
+.corte{background-image: url(../img/navaja.png);background-size: 50%;}
+
+.barba{background-image: url(../img/bigote.png);background-size: 75%;}
+
+#footer{
+    background-image: url(../img/footer.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+
+.footer{
+    background-color: var(--primary);
+}
