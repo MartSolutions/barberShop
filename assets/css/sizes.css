@@ -7,7 +7,7 @@
 
   
   /* Pantallas muy grandes (desktops grandes) */
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 993px) {
     /* body {
       font-size: 20px;
       background-color: rgb(158, 158, 158);
@@ -15,39 +15,45 @@
   }
   
   /* Pantallas de escritorio medianas (laptops) */
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* body {
+  /* @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
       font-size: 18px;
       background-color: #f00;
-    } */
-  }
+    }
+  } */
   
   /* Pantallas de tablets en modo horizontal */
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* body {
+  /* @media only screen and  (max-width: 991px) {
+
+    .gtc-2{
+      grid-template-columns: 1fr;
+    }
+    body {
       font-size: 16px;
       background-color: #e55;
-    } */
-  }
+    }
+  } */
   
   /* Pantallas de tablets en modo vertical */
-  @media only screen and (min-width: 576px) and (max-width: 767px) {
-    /* body {
+  /* @media only screen and (min-width: 576px) and (max-width: 767px) {
+    body {
       font-size: 14px;
       background-color: #0db107;
-    } */
-  }
+    }
+  } */
   
   /* Pantallas de móviles */
-  @media only screen and (max-width: 575px) {
+  @media only screen and (max-width: 992px) {
     /* html{
         font-size:12px;
+    }*/
+    .gtc-2{
+      grid-template-columns: 1fr !important;
     }
 
       
     body {
-      font-size: 12px;
-      background-color: #ff0077;
-    } */
+      font-size: 16px;
+    } 
   }
   

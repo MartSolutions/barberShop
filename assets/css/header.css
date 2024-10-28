@@ -6,7 +6,7 @@
     background-image: url(../img/header.svg);
     background-position: 0 0;
     background-size: 100%;
-    padding: 0 2rem;
+    padding: 0 1rem;
     position:fixed;
     background-repeat: no-repeat;
     top:0;
@@ -22,12 +22,17 @@
     font-size: 2rem;
     display:block;
     text-decoration: none;
-    color:#fff;
+    color:#000000;
     font-weight: 900;
-    text-shadow:0 0 5px #000;
+    /* text-shadow:0 0 5px #000; */
     transform: rotateZ(-5deg);
     /* border:solid 1px red; */
     position: fixed;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:1rem;
 
 }
 

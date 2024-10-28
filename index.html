@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <section id="header">
@@ -17,13 +22,16 @@
     <!-- MAIN -->
     <section id="main">
         <div class="dg gtc-2 ac-center section">
-            <article id="ilustration"></article>
+            
+            <article class="ilustration portada"></article>
             <article >
-                <h1 class="fz-2">Renová tu imagen</h1>
-                <h1 class="fz-2">Reinventá tu look</h1>
-                
+                <h1 class="fz-1 desc">
+                    <span class="box">Renová</span>
+                    <span class="empty-text">TU IMAGEN</span>
+                </h1>
+                <h1 class="fz-1">Reinventá tu look</h1>
             </article>
-
+            <button class="btn-primary"> Agendame ahora</button>
         </div>
         <div class="section dg gtc-2 ac-center">
             <article>
@@ -47,9 +55,21 @@
         <div class="section services">
             <h1 class="fz-2">Servicios</h1>
             <div class="dg gtc-3 pad-0">
-                <article class="corte service"><span>Rasurados</span></article>
-                <article class="barba service"></article>
-                <article class="pincel service"></article>
+                <a href="#razor" class="corte service"><span></span></a>
+                <a href="#beard" class="barba service"></a>
+                <a href="#titnte" class="pincel service"></a>
+            </div>
+            <div class="services-descriptions">
+                <section class="Cortes" id="razor">
+                    <h2 class="fz-1">Corte de cabello</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, ipsam quas! Reiciendis numquam aperiam, dignissimos, laboriosam quasi illo non nesciunt dicta assumenda sint debitis placeat necessitatibus nobis maxime, dolor quod!</p>
+                </section>
+                <section class="Barba" id="beard"><h2 class="fz-1">Mantenimiento de barba</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, ipsam quas! Reiciendis numquam aperiam, dignissimos, laboriosam quasi illo non nesciunt dicta assumenda sint debitis placeat necessitatibus nobis maxime, dolor quod!</p></section>
+                <section class="Tintas id="tinte">
+                    <h2 class="fz-1">Tintas</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, ipsam quas! Reiciendis numquam aperiam, dignissimos, laboriosam quasi illo non nesciunt dicta assumenda sint debitis placeat necessitatibus nobis maxime, dolor quod!</p>
+                </section>
             </div>
         </div>
 
@@ -79,8 +99,7 @@
             <article class="ilustration horarys"></article>
             <article >
                 <h1 class="fz-2">Horarios de atención</h1>
-                <p>De lunes a viernes</p>
-                <p>de 09:00 a 20:00 hs.</p>
+                <p>De lunes a viernes de 09:00 a 20:00 hs.</p>
                 <p>Sábados de 10:00 a 21:00hs</p>
                 <a href="/agenda" class="btn-primary">Ver en GoogleMaps</a>
             </article>

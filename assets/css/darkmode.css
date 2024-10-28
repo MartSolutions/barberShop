@@ -1,7 +1,6 @@
 @media (prefers-color-scheme : light){
     :root{
-        --primary:#<svg id="visual" viewBox="0 0 1200 100" width="1200" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="1200" height="100" fill="#00000000"></rect><path d="M0 12L66.7 24.2C133.3 36.3 266.7 60.7 400 66.7C533.3 72.7 666.7 60.3 800 52C933.3 43.7 1066.7 39.3 1133.3 37.2L1200 35L1200 0L1133.3 0C1066.7 0 933.3 0 800 0C666.7 0 533.3 0 400 0C266.7 0 133.3 0 66.7 0L0 0Z" fill="var(--primary)" stroke-linecap="round" stroke-linejoin="miter"></path></svg>
-        ;
+        --primary:#00b7ff;
     }
 }
 

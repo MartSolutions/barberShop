@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/schedule.css">
+    <!-- JQuery -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="../assets/js/schedule.js"></script>
+    
 </head>
 <body>
     <!-- Header -->
@@ -18,12 +26,26 @@
 
     <!-- MAIN -->
     <section id="main">
-        <div class="section">
-            <div class="content-steps">
-                <div>Fecha</div>
-                <div>Hora</div>
-                <div>Confirmación</div>
+        <div class="section" id="shedule">
+            <div class="schedule">
+                <div class="content-steps">
+                    <div class="step datetime">
+                        <span class="circle"><i class="fa fa-check"></i></span>
+                        <span class="desc">Fecha y hora</span>
+                    </div>
+                    <div class="step client">
+                        <span class="circle"><i class="fa fa-check"></i></span>
+                        <span class="desc">Cliente</span>
+                    </div>
+                    <div class="step success">
+                        <span class="circle"><i class="fa fa-check"></i></span>
+                        <span class="desc">Confirmación</span>
+                    </div>
+                </div>
+                <div id="datepicker"></div>
+                <button class="btn-primary"> Siguiente</button>
             </div>
+
         </div>
         
         <div class="section footer"></div>

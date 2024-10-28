@@ -1,0 +1,96 @@
+body{
+    background-color: #eee;
+}
+.schedule{
+    /* background-color: #fff; */
+    /* box-shadow:0 0 5px #002; */
+    border-radius: 10px;
+    margin:0 auto;
+    max-width: 90%;
+    /* padding: 0rem !important; */
+    background:#ffffff;
+    max-width: max-content;
+    margin:0 auto;
+    padding:2rem;
+    border-radius:10px;
+}
+
+.content-steps{
+    /* border:solid 1px red; */
+    display: flex;
+    gap:0;
+    overflow-x: scroll;
+    margin:0;
+    border:solid 1px #eee;
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.content-steps .step{
+    /* border:solid 1px green; */
+    display:block;
+    min-width: max-content;
+    text-align: center;
+    position:relative;
+    padding: 1rem;
+    margin:0;
+}
+
+.content-steps .step .circle{
+    background:#eee;
+
+    z-index: 2;
+    width:2rem;
+    height:2rem;
+    display:grid;
+    align-items: center;
+    border-radius:100%;
+    margin:1rem auto;
+}
+
+
+
+.content-steps .datetime.step:before{
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    inset: -1rem 0 0 auto;
+    background-color: #eee;
+    margin: auto auto;
+    z-index:0;
+
+}
+
+.content-steps .client.step:before{
+    content:"";
+    position: absolute;
+    display:block;
+    height: 3px;
+    width: calc(100%);
+    inset: -1rem 0 0 0;
+    background-color: #eee;
+    margin: auto auto;
+    z-index:0;
+
+}
+
+.content-steps .success.step:before{
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: calc(50% - 1rem);
+    inset: -1rem auto 0 0;
+    background-color: #eee;
+    margin: auto auto;
+    z-index:0;
+
+}
+
+
+.content-steps .step i{
+    color:rgb(90, 90, 90);
+    z-index:1;
+}
+
